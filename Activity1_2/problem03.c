@@ -1,10 +1,12 @@
-/*Write a program that reads in five integers and then determines and prints the largest and the smallest integers in the group. Use only the programming techniques you have learned in this lesson.*/
+/* Write a program that reads in five integers and then determines and prints the largest and the smallest integers in the group. Use only the programming techniques you have learned in this lesson.
+ * Author: Dexter Gomez*/
 
 #include <stdio.h>
 
 int main()
 {	
 	int number1, number2, number3, number4, number5;
+
 	printf("Insert 5 numbers: ");
 	scanf("%d %d %d %d %d",&number1, &number2, &number3, &number4, &number5);
 	

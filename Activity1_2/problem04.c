@@ -4,11 +4,11 @@
 
 int main()
 {
-    int num;
+    int num, d1, d2, d3, d4, d5;
+
+    //Input
     printf("Insert a five-digit number: ");
     scanf("%d",&num);
-
-    int d1,d2,d3,d4,d5;
 
     d1 = num / 10000;
     num = num - d1*10000;
@@ -20,6 +20,7 @@ int main()
     num = num - d4 *10;
     d5 = num / 1;
     
+    //Output
     printf("%d   %d   %d   %d   %d\n",d1,d2,d3,d4,d5);
 
     return 0;
