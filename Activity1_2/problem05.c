@@ -5,17 +5,21 @@ BMI = weightInKilograms / (heightInMeters * heightInMeters)*/
 
 int main()
 {
+
+	//variables
     float weight, height;
+
+    //Input
     printf("Introduce the weight (in kg): ");
     scanf("%f",&weight);
 
     printf("Introduce the height (in mts): ");
     scanf("%f",&height);
 
+    //BMI calculation
     float BMI = weight / (height * height);
 
-    //char message[14];
-
+    
     if(BMI < 18.5)
     {
         char message[] = "Underweight";
